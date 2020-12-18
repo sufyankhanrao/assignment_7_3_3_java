@@ -6,7 +6,7 @@ install:
   # set MVN_HOME path 
   - SET MVN_HOME=C:\Program Files (x86)\Apache\Maven
   # set PATH
-  - SET PATH=C:\google\google-cloud-sdk\bin;%MVN_HOME%\bin;%JAVA_HOME%\bin;%PATH%
+  - SET PATH=C:\google\google-cloud-sdk\bin;%MVN_HOME%;%MVN_HOME%\bin;%JAVA_HOME%\bin;%PATH%
   # check Java version
   - java -version
 
